@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/IntervalMap.cpp \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/IntervalMap.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/PointerIntPair.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/Compiler.h \
+  /Users/bangcle/apple-llvm-project_ios/build/include/llvm/Config/llvm-config.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/PointerLikeTypeTraits.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/DataTypes.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm-c/DataTypes.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/type_traits.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/SmallVector.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/Allocator.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/Optional.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/Hashing.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/ErrorHandling.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/SwapByteOrder.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/None.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/STLForwardCompat.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/Alignment.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/MathExtras.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/AllocatorBase.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/MemAlloc.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/RecyclingAllocator.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/Recycler.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/simple_ilist.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist_base.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist_node_base.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist_iterator.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist_node.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/ilist_node_options.h \
+  /Users/bangcle/apple-llvm-project_ios/build/include/llvm/Config/abi-breaking.h

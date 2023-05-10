@@ -1,0 +1,13 @@
+# Target labels
+ runtimes
+# Source files and their labels
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-clobber-stamp
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/CMakeFiles/runtimes-clean
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-clobber-stamp.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/CMakeFiles/runtimes-clean.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-clean.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-configure.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-patch.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-update.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-download.rule
+/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-mkdir.rule

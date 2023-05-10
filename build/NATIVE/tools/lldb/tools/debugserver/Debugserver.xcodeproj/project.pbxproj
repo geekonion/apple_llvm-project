@@ -1,0 +1,1897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28790E8734774C58A36900B4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 844DB18AA0FC4F1090BDF35B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4CE480977DA31A26959BC777 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		32429DEE82BE48D0ABF978D5 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D9FA5E5DC91F45CBA940219C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				87BF4A9849C1425884E7ED8B /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		4036AC3C9AE641F08E13D9B0 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B2CDFB998B6420D8B6D596E /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6C633F39EF104F4CB5D31A32 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		EFE6C1871FAD4DA7BF39CF40 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7030B1D8E6AF4614B9DC2388 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E1E2620F0C4C6A7702ACFF33 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B136CAA005B543B396E03956 /* PBXTargetDependency */,
+				DDE3DF0B51DE4B15B5B6E741 /* PBXTargetDependency */,
+				EA9374DAF20847EE9948A8E8 /* PBXTargetDependency */,
+				D0EEC0A4191B4B13B8AE5B72 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00A2937907254DE8B34A4E15 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.cpp */ = {isa = PBXBuildFile; fileRef = 7D5B9F7AE2544B9FAE84730C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.cpp */; };
+		0173C244D8A442FDAC1845C3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.cpp */ = {isa = PBXBuildFile; fileRef = 1662B800BCAA4D5CB951ED1F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		06F359168E264F4DAD6F12DA /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c */ = {isa = PBXBuildFile; fileRef = 410C7E8DF6FC45FF9F3134D0 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c */; };
+		0B800772CBB44EC2B0D6ACE4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.cpp */ = {isa = PBXBuildFile; fileRef = 575CE3E8D92248BD98AC3FA7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		0FB5DFDD0A904F0BBAFF1A8E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */ = {isa = PBXBuildFile; fileRef = 2235EB5B573F4C07A8059A6D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */; };
+		1123EA389DE64A83BB7F8069 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */ = {isa = PBXBuildFile; fileRef = 1E5866D316BA471B8237DB19 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */; };
+		1492519527784A358F27E645 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */ = {isa = PBXBuildFile; fileRef = ACC96F3096374981909C67BA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */; };
+		15A6F5EBBE5D4CFABFCD9DEF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */ = {isa = PBXBuildFile; fileRef = 5BC86B36CBA54DF1845E5290 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */; };
+		15B1CB2AD3884F5994997716 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.mm */ = {isa = PBXBuildFile; fileRef = 4D2685B277B04030A47164E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.mm */; };
+		15E3FE49924B49AE96AA25E1 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c */ = {isa = PBXBuildFile; fileRef = D6228752C2DA44B5B4BC5802 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c */; };
+		162772BE3DA24CA9908517E9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.cpp */ = {isa = PBXBuildFile; fileRef = 66CD515B01C547199134F228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		18D6A806C13D49C790FAC2FB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */ = {isa = PBXBuildFile; fileRef = 5B9786C1753C448E8ADDD379 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */; };
+		1DB0B447BB494D1688D66F79 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.cpp */ = {isa = PBXBuildFile; fileRef = 5D31E918742A4AB290C08438 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		1DB85BC957C649A79BA74B1B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.cpp */ = {isa = PBXBuildFile; fileRef = 154F357D9D6B4E88A4DF1D78 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		1E45176604DA4C6F999622C0 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */ = {isa = PBXBuildFile; fileRef = 7C701F42BA43458CB738E562 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */; };
+		1E6B3128AEAA47B5AE6FB728 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */ = {isa = PBXBuildFile; fileRef = 38B424EAA22C4F01BC25CCB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */; };
+		25006296BABA4FBE86E4D1B3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.cpp */ = {isa = PBXBuildFile; fileRef = 902D3DEA12F449C0A4585918 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		2822B7FD659F4330B1E2BBF5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.cpp */ = {isa = PBXBuildFile; fileRef = BAAA6F7752A54CD889E11649 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.cpp */; };
+		2847285D7F114719A13BEAF6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.cpp */ = {isa = PBXBuildFile; fileRef = EC089A4755AD4D8899035EB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		2BE106D1204F4860A2F8E345 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */ = {isa = PBXBuildFile; fileRef = 89944226D4EB4EC79C447FC1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */; };
+		30E3A1C25BB34B6F8D4C8428 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */ = {isa = PBXBuildFile; fileRef = 6FC0D519983E481B875B0FBF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */; };
+		32C1CDC530A548FBA295262E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */ = {isa = PBXBuildFile; fileRef = 18DDAB1565314E43AE1319AB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */; };
+		33DFFE253FD84CB68CFFC38F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */ = {isa = PBXBuildFile; fileRef = 81C313F306964B02B4A857C5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */; };
+		353B146C53EF4CB19B056470 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */ = {isa = PBXBuildFile; fileRef = 87754EF0B0A747D5A26BD7CC /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */; };
+		3A0EB8EA8DAF48D9A2A3C645 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */ = {isa = PBXBuildFile; fileRef = 9473511DB1CC4371BABCD1D2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */; };
+		3F0A0DF242DE496CA5EECB5E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */ = {isa = PBXBuildFile; fileRef = 553B47205C564E139A7ACD92 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */; };
+		410A1BDC23BF4047BB7C3B53 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.cpp */ = {isa = PBXBuildFile; fileRef = 2E8CA58BF6714C48BF8F06C7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		41608E42C17542909BE2D903 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */ = {isa = PBXBuildFile; fileRef = CF266516C6B64FD785812682 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */; };
+		41BC63E7E667432F8329673B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */ = {isa = PBXBuildFile; fileRef = 5496B9FAF44243C8B1073F94 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */; };
+		439B68FF44E040F783CF0165 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.cpp */ = {isa = PBXBuildFile; fileRef = 81A4051A5893417EADBF383A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		490931C170474C27BD5D20AE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */ = {isa = PBXBuildFile; fileRef = 1C9C922C95A649FCB535B16E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */; };
+		4ABA1F3470E74CFBA5728D81 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */ = {isa = PBXBuildFile; fileRef = E7795BD3F58A4462A169656E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */; };
+		4AE75F08ED3B4164B6C33956 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXBuildFile; fileRef = 8805B03006234BE289A3B2CF /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Foundation.framework */; };
+		4EA4DA582FB641498967C892 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.cpp */ = {isa = PBXBuildFile; fileRef = 9895B0279A1C47E4B452B91F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		52AD79D0FF8A436F86D61355 /* /Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp */ = {isa = PBXBuildFile; fileRef = 55A7FF0CFE3B4D50AD54EFB3 /* /Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		5351BD06C8164B2AACA7FD60 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.cpp */ = {isa = PBXBuildFile; fileRef = 897A832C84A5467F845F2AAE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.cpp */; };
+		591079BB3D65406EAC248EFD /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */ = {isa = PBXBuildFile; fileRef = 6CB4E06152C0438994BE8E38 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */; };
+		5931FB6247E6433C8C8FBCFB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2395DF6E1E97452283D1EC68 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CMakeLists.txt */; };
+		5CC7802A52F8465384E7B17F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */ = {isa = PBXBuildFile; fileRef = 903BABD906D7406DBACB0B52 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */; };
+		5D9C84320284441EB44F0356 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 08449A05EDE84D3DA1AE6A7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */; };
+		5EB98226908E40E88D086666 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */ = {isa = PBXBuildFile; fileRef = 4F2E8E8B72CD47F28590C736 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */; };
+		63133D8C534A487EB8D50E35 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm */ = {isa = PBXBuildFile; fileRef = BBA2DD86AB3D4BCDB0958CB6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm */; };
+		640E4FAAED044938BA7D681F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */ = {isa = PBXBuildFile; fileRef = 1F0FECFACCDE4ABF81B3AF84 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */; };
+		6579056BBD594E68B982B4FB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 86FB9856162E4EC2A1925124 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */; };
+		659C766A1BC44CAAA0C4F3F7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFBundle.cpp */ = {isa = PBXBuildFile; fileRef = 482E482B9C68445DA6C28F0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFBundle.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		68A11EC753F34E4FAA910A3A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */ = {isa = PBXBuildFile; fileRef = C8A10CB8AA6E46BCB88FE2D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */; };
+		6BBEE9A6AA9F4B6C8983BB26 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */ = {isa = PBXBuildFile; fileRef = 3AE0F0E00B8E4BD0ABAA8B75 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */; };
+		6CDF0213FCC2476D84C6B545 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */ = {isa = PBXBuildFile; fileRef = 36D2CC4AA7A5426085B6041F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */; };
+		7391D6DB86BF4BA0B6CF4F1F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */ = {isa = PBXBuildFile; fileRef = 6495DB5011A14E4F8E32A8C8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */; };
+		74736022FC4F4BE3AB096CDA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */ = {isa = PBXBuildFile; fileRef = 0EECD08ABCA44220A564FE80 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */; };
+		76033A1EE5FB455C8000A744 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreFoundation.framework */ = {isa = PBXBuildFile; fileRef = 5550020A62A54902A4FE3953 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreFoundation.framework */; };
+		762D528516C5420BBD482083 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */ = {isa = PBXBuildFile; fileRef = E590034D38094AAA975946EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */; };
+		7663DAF07ACB41B5AB25075F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */ = {isa = PBXBuildFile; fileRef = E9EB12C22AA44D8282E0E2E4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */; };
+		7D6A7D5A7A3C40C49BCFF158 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */ = {isa = PBXBuildFile; fileRef = 22120871B342463DBF3E75B8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */; };
+		7E85969D9E6E428FBC8E34D5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */ = {isa = PBXBuildFile; fileRef = 2200381101E4457987EFA609 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */; };
+		8076AEDCF53842D38CB61AFC /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */ = {isa = PBXBuildFile; fileRef = 6469BCB115B34DE69A7118D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */; };
+		86AC8141920B4A35BB300E77 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.cpp */ = {isa = PBXBuildFile; fileRef = 8857720F2C874373822CE912 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		86B1137B3C8D4D25AEA35182 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.cpp */ = {isa = PBXBuildFile; fileRef = 4B8F3DF49F5045ED9804799E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		8712D604D41F44BEB7DFD37D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.cpp */ = {isa = PBXBuildFile; fileRef = 0337F38ED9044EACB362FB6C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.cpp */; };
+		8B35BEA5492046159FC79FA7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */ = {isa = PBXBuildFile; fileRef = 35D5624B806F4052B64DC482 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */; };
+		8E01AFAEDD684353B335A96F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */ = {isa = PBXBuildFile; fileRef = 08A88B315659474F90C0F7E9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */; };
+		9266E49C98E448A9BBCDCCE9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */ = {isa = PBXBuildFile; fileRef = 2C50EF3B8AE74FDBBCCB2347 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */; };
+		944D11B93B914C0B877243AF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/OsLogger.cpp */ = {isa = PBXBuildFile; fileRef = 3D38A876239542D9B4F37228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/OsLogger.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		95806F606A384F10BD1286D9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/debugserver.cpp */ = {isa = PBXBuildFile; fileRef = A8F7795DC5374898880A1A1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/debugserver.cpp */; };
+		959C458096754CBC86DB5553 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */ = {isa = PBXBuildFile; fileRef = D948E6B2DC7845D5A5640819 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */; };
+		97F7A49E0C7F45CAA2DECD32 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */ = {isa = PBXBuildFile; fileRef = F4A530B66D1F4F56B429F104 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */; };
+		9977141A2CB240F890725919 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */ = {isa = PBXBuildFile; fileRef = 3F9A47C1C36C43D3920C2B7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */; };
+		998C73E4E4D84391B935F70A /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h.rule */ = {isa = PBXBuildFile; fileRef = 5EBF7EFE553644E39C005EC5 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h.rule */; };
+		9CF7C3C4DA424B2CA4BBA904 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.cpp */ = {isa = PBXBuildFile; fileRef = 4072555D439948229DCF06E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		A01872DE80D74346AD5155B1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */ = {isa = PBXBuildFile; fileRef = 90DE6904EF9E4BBB8396D31F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */; };
+		A266890CBD704A748EF05CC1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */ = {isa = PBXBuildFile; fileRef = BBD1F567E25346FA9134A569 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */; };
+		A80369B6FAA0455E8E7868D8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */ = {isa = PBXBuildFile; fileRef = 2D2B4D66A9C1404F83DAC58E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */; };
+		AA432871E0C94669942F373D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.cpp */ = {isa = PBXBuildFile; fileRef = 9E1B9142AA7647728A281442 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		AE920516AEC1490697DBDEDB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.cpp */ = {isa = PBXBuildFile; fileRef = FC73CE7B93B147CA84AED08D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		B05F8B831C2A4A2096F3D249 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.cpp */ = {isa = PBXBuildFile; fileRef = 6F70B804A2E549D0A4054FED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		B156B641CD404526BC467220 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h */ = {isa = PBXBuildFile; fileRef = 061E09600844474D87236690 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h */; };
+		B38E99A161A34DB6B65D92BB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */ = {isa = PBXBuildFile; fileRef = 45D4EBCB8D4D489B9CDADD18 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */; };
+		B4F4D4CA8F9F433FB2EFDA9E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.cpp */ = {isa = PBXBuildFile; fileRef = 795DDC889EC64023AC002366 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		BA33633A7EE54B6B848ACCAA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */ = {isa = PBXBuildFile; fileRef = DED41FBD6B0F462CAB73C514 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */; };
+		BBF76B1C157340888DD7234C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */ = {isa = PBXBuildFile; fileRef = 083B124BFE1A4FA9B4E9DDB1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */; };
+		C4B10EA7343B4FCA84CE8CB6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */ = {isa = PBXBuildFile; fileRef = FA1B83888D324A9AA17ED3A4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */; };
+		C52A8B588E094857BC6A733D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */ = {isa = PBXBuildFile; fileRef = C28CCD830A884D18A8A4251C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */; };
+		C69EE6F2C06A4E58A5D657F7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */ = {isa = PBXBuildFile; fileRef = 87803990EF164040870B8D5B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */; };
+		D0BC86B1F3DB4AFEB9DBB7B9 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXBuildFile; fileRef = 526903BF564A4B1689BC9C3A /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Security.framework */; };
+		D17D3E429CA9431DBF205161 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */ = {isa = PBXBuildFile; fileRef = 99ABC5DB01084AC7AE1AE2B9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */; };
+		D6EC6A7C01D24502ACED7843 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */ = {isa = PBXBuildFile; fileRef = ECE1A2E8B5D84910B2C06C1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */; };
+		DB0A15E3B78944D8A27DF092 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */ = {isa = PBXBuildFile; fileRef = 92DA9991437F4819BB542C07 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */; };
+		DC2971A9B200480EA8B63E61 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */ = {isa = PBXBuildFile; fileRef = A178600134DE4F95BEEB0170 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */; };
+		DF7DEF762DD144A7A3865FC3 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c */ = {isa = PBXBuildFile; fileRef = 5EAF23B3C6174DFD853E2175 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c */; };
+		E0B6F6E9CA104D008CAC81CA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */ = {isa = PBXBuildFile; fileRef = 46150A0BC0F74AFD8992456C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */; };
+		E0BB546392C546189D394C5E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.cpp */ = {isa = PBXBuildFile; fileRef = D9CE5E9582BE430989D425E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		E21932ADC46647D4923172E3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = 20738FF265314298A1518A0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		E45578B44BC6467CB007A566 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.cpp */ = {isa = PBXBuildFile; fileRef = 10927DDE59304954BECEFC7F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		E4D220DAD2614EBBBCFE16ED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.cpp */ = {isa = PBXBuildFile; fileRef = 6AE2868CC51340CF92C3A733 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		E8E44203CE794694918C8AB5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */ = {isa = PBXBuildFile; fileRef = BB6F4D51671847BABFD7D814 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */; };
+		EBB6AAA59DF341C88BAC8A8E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */ = {isa = PBXBuildFile; fileRef = CCC4FDF8494B42B294638250 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */; };
+		EE4B758BD04642A7ABD188C8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */ = {isa = PBXBuildFile; fileRef = DD96D0CED8DB49E1881BCC6A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */; };
+		EEFAD590F2D54BD3A1FA7E0C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.cpp */ = {isa = PBXBuildFile; fileRef = A24759D54F0446FEB143FAFE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		F0AAF4653ABA4D02B24CDE9A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */ = {isa = PBXBuildFile; fileRef = 5566A02B8EF942D695503BC3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */; };
+		F0CBB822A8D74075B04BDBED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFString.cpp */ = {isa = PBXBuildFile; fileRef = F64179F303994239B8676281 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFString.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		F1A5FCE2AB1843B89DE2B943 /* /Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp */ = {isa = PBXBuildFile; fileRef = 469A4CEC7E82429F81F75724 /* /Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp */; };
+		F251EF9614724327AA00A933 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.cpp */ = {isa = PBXBuildFile; fileRef = 3472B824F1464C0C8CBD6BE4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		F39245397BA54D67B3E0E453 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */ = {isa = PBXBuildFile; fileRef = 05384BF3669A4322BBFAC1EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */; };
+		F55A2FC658254B5CAE2E9715 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */ = {isa = PBXBuildFile; fileRef = EB45FE9CE70640C2A24224AF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */; };
+		F68B300351404BBB99843857 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.cpp */ = {isa = PBXBuildFile; fileRef = CE678C77456E4F588392E82C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		FA5B20B5697A4C3F9D1F0279 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMRegion.cpp */ = {isa = PBXBuildFile; fileRef = A5786E4B02C14511AF8C3F0D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMRegion.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		FB93EBA2C5454C9B8F5C53C0 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.cpp */ = {isa = PBXBuildFile; fileRef = 565BA26B095C4F4F9E2EDF25 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+		FEBE0BA19DC54D1C9FF4C56A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.cpp */ = {isa = PBXBuildFile; fileRef = 5DA5BA560DB3449D9005AD29 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.cpp */; settings = {COMPILER_FLAGS = " -fno-exceptions -fno-rtti"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0B58A878F6D9486384E1631D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6047630F86834071AC6512A4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		714020F0182948C483879132 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E2772DAA407F46328E03ACB6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		03E5111787234CBDB84F67BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2572B9A8AC84FD7899062C5;
+			remoteInfo = debugserver;
+		};
+		170C6AADB7134790B9A9D712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA048E91374740D2B4E96221;
+			remoteInfo = lldbDebugserverArchSupport;
+		};
+		445CABE716E741C197C315D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE6C1871FAD4DA7BF39CF40;
+			remoteInfo = ALL_BUILD;
+		};
+		57469C0C16CF4540AFEB504F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE6C1871FAD4DA7BF39CF40;
+			remoteInfo = ALL_BUILD;
+		};
+		5F1354CA1B0242C8A4675F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28790E8734774C58A36900B4;
+			remoteInfo = ZERO_CHECK;
+		};
+		9438EB5CCBF8406297C0D0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843E1164F5AB4347A9A954D7;
+			remoteInfo = lldbDebugserverCommon;
+		};
+		CB8546E5D4E7417B9F28CAB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA048E91374740D2B4E96221;
+			remoteInfo = lldbDebugserverArchSupport;
+		};
+		E6ABADD1D07D4162AEF77CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 980D3CF2C521407E8339D474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843E1164F5AB4347A9A954D7;
+			remoteInfo = lldbDebugserverCommon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0337F38ED9044EACB362FB6C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBArchImpl.cpp; path = source/MacOSX/arm/DNBArchImpl.cpp; sourceTree = SOURCE_ROOT; };
+		05384BF3669A4322BBFAC1EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBError.h; path = source/DNBError.h; sourceTree = SOURCE_ROOT; };
+		061E09600844474D87236690 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mach_exc.h; path = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h"; sourceTree = "<absolute>"; };
+		083B124BFE1A4FA9B4E9DDB1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadEvent.h; path = source/PThreadEvent.h; sourceTree = SOURCE_ROOT; };
+		08449A05EDE84D3DA1AE6A7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = source/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		08A88B315659474F90C0F7E9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBDataRef.h; path = source/DNBDataRef.h; sourceTree = SOURCE_ROOT; };
+		0EECD08ABCA44220A564FE80 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBRegisterInfo.h; path = source/DNBRegisterInfo.h; sourceTree = SOURCE_ROOT; };
+		10927DDE59304954BECEFC7F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StdStringExtractor.cpp; path = source/StdStringExtractor.cpp; sourceTree = SOURCE_ROOT; };
+		154F357D9D6B4E88A4DF1D78 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBBreakpoint.cpp; path = source/DNBBreakpoint.cpp; sourceTree = SOURCE_ROOT; };
+		1662B800BCAA4D5CB951ED1F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RNBRemote.cpp; path = source/RNBRemote.cpp; sourceTree = SOURCE_ROOT; };
+		18DDAB1565314E43AE1319AB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBRuntimeAction.h; path = source/DNBRuntimeAction.h; sourceTree = SOURCE_ROOT; };
+		1C9C922C95A649FCB535B16E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARM_ehframe_Registers.h; path = source/ARM_ehframe_Registers.h; sourceTree = SOURCE_ROOT; };
+		1E5866D316BA471B8237DB19 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TTYState.h; path = source/TTYState.h; sourceTree = SOURCE_ROOT; };
+		1F0FECFACCDE4ABF81B3AF84 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadEvent.h; path = source/PThreadEvent.h; sourceTree = SOURCE_ROOT; };
+		20738FF265314298A1518A0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PThreadMutex.cpp; path = source/PThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		2200381101E4457987EFA609 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBSocket.h; path = source/RNBSocket.h; sourceTree = SOURCE_ROOT; };
+		22120871B342463DBF3E75B8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadCondition.h; path = source/PThreadCondition.h; sourceTree = SOURCE_ROOT; };
+		2235EB5B573F4C07A8059A6D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = StdStringExtractor.h; path = source/StdStringExtractor.h; sourceTree = SOURCE_ROOT; };
+		2395DF6E1E97452283D1EC68 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = source/MacOSX/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C50EF3B8AE74FDBBCCB2347 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBDataRef.h; path = source/DNBDataRef.h; sourceTree = SOURCE_ROOT; };
+		2D2B4D66A9C1404F83DAC58E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBRegisterInfo.h; path = source/DNBRegisterInfo.h; sourceTree = SOURCE_ROOT; };
+		2E8CA58BF6714C48BF8F06C7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RNBServices.cpp; path = source/RNBServices.cpp; sourceTree = SOURCE_ROOT; };
+		3472B824F1464C0C8CBD6BE4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBDataRef.cpp; path = source/DNBDataRef.cpp; sourceTree = SOURCE_ROOT; };
+		35D5624B806F4052B64DC482 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libdebugserver.h; path = source/libdebugserver.h; sourceTree = SOURCE_ROOT; };
+		36D2CC4AA7A5426085B6041F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSON.h; path = source/JSON.h; sourceTree = SOURCE_ROOT; };
+		38B424EAA22C4F01BC25CCB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSON.h; path = source/JSON.h; sourceTree = SOURCE_ROOT; };
+		3AE0F0E00B8E4BD0ABAA8B75 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBBreakpoint.h; path = source/DNBBreakpoint.h; sourceTree = SOURCE_ROOT; };
+		3D38A876239542D9B4F37228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/OsLogger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OsLogger.cpp; path = source/MacOSX/OsLogger.cpp; sourceTree = SOURCE_ROOT; };
+		3F9A47C1C36C43D3920C2B7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNB.h; path = source/DNB.h; sourceTree = SOURCE_ROOT; };
+		4072555D439948229DCF06E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TTYState.cpp; path = source/TTYState.cpp; sourceTree = SOURCE_ROOT; };
+		410C7E8DF6FC45FF9F3134D0 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_excServer.c; path = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c"; sourceTree = "<absolute>"; };
+		45D4EBCB8D4D489B9CDADD18 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = libdebugserver.h; path = source/libdebugserver.h; sourceTree = SOURCE_ROOT; };
+		46150A0BC0F74AFD8992456C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARM_ehframe_Registers.h; path = source/ARM_ehframe_Registers.h; sourceTree = SOURCE_ROOT; };
+		469A4CEC7E82429F81F75724 /* /Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dummy.cpp; path = "/Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp"; sourceTree = "<absolute>"; };
+		482E482B9C68445DA6C28F0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFBundle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CFBundle.cpp; path = source/MacOSX/CFBundle.cpp; sourceTree = SOURCE_ROOT; };
+		4B8F3DF49F5045ED9804799E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MachException.cpp; path = source/MacOSX/MachException.cpp; sourceTree = SOURCE_ROOT; };
+		4D2685B277B04030A47164E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MachProcess.mm; path = source/MacOSX/MachProcess.mm; sourceTree = SOURCE_ROOT; };
+		4F2E8E8B72CD47F28590C736 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBArch.h; path = source/DNBArch.h; sourceTree = SOURCE_ROOT; };
+		526903BF564A4B1689BC9C3A /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		5496B9FAF44243C8B1073F94 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNB.h; path = source/DNB.h; sourceTree = SOURCE_ROOT; };
+		553B47205C564E139A7ACD92 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBContext.h; path = source/RNBContext.h; sourceTree = SOURCE_ROOT; };
+		5550020A62A54902A4FE3953 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		5566A02B8EF942D695503BC3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBBreakpoint.h; path = source/DNBBreakpoint.h; sourceTree = SOURCE_ROOT; };
+		55A7FF0CFE3B4D50AD54EFB3 /* /Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SocketAddress.cpp; path = "/Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp"; sourceTree = "<absolute>"; };
+		565BA26B095C4F4F9E2EDF25 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MachThread.cpp; path = source/MacOSX/MachThread.cpp; sourceTree = SOURCE_ROOT; };
+		575CE3E8D92248BD98AC3FA7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Genealogy.cpp; path = source/MacOSX/Genealogy.cpp; sourceTree = SOURCE_ROOT; };
+		5B3F18E659A448AF95F8F6AF /* debugserver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = debugserver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9786C1753C448E8ADDD379 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = StringConvert.h; path = source/StringConvert.h; sourceTree = SOURCE_ROOT; };
+		5BC86B36CBA54DF1845E5290 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBServices.h; path = source/RNBServices.h; sourceTree = SOURCE_ROOT; };
+		5D31E918742A4AB290C08438 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBLog.cpp; path = source/DNBLog.cpp; sourceTree = SOURCE_ROOT; };
+		5DA5BA560DB3449D9005AD29 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RNBContext.cpp; path = source/RNBContext.cpp; sourceTree = SOURCE_ROOT; };
+		5EAF23B3C6174DFD853E2175 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = debugserver_vers.c; path = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c"; sourceTree = "<absolute>"; };
+		5EBF7EFE553644E39C005EC5 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mach_exc.h.rule; path = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h.rule"; sourceTree = "<absolute>"; };
+		6469BCB115B34DE69A7118D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARM_DWARF_Registers.h; path = source/ARM_DWARF_Registers.h; sourceTree = SOURCE_ROOT; };
+		6495DB5011A14E4F8E32A8C8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBDefs.h; path = source/RNBDefs.h; sourceTree = SOURCE_ROOT; };
+		66CD515B01C547199134F228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNB.cpp; path = source/DNB.cpp; sourceTree = SOURCE_ROOT; };
+		6AE2868CC51340CF92C3A733 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBArch.cpp; path = source/DNBArch.cpp; sourceTree = SOURCE_ROOT; };
+		6CB4E06152C0438994BE8E38 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PseudoTerminal.h; path = source/PseudoTerminal.h; sourceTree = SOURCE_ROOT; };
+		6F70B804A2E549D0A4054FED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PseudoTerminal.cpp; path = source/PseudoTerminal.cpp; sourceTree = SOURCE_ROOT; };
+		6FC0D519983E481B875B0FBF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBContext.h; path = source/RNBContext.h; sourceTree = SOURCE_ROOT; };
+		795DDC889EC64023AC002366 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StringConvert.cpp; path = source/StringConvert.cpp; sourceTree = SOURCE_ROOT; };
+		7C701F42BA43458CB738E562 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBLog.h; path = source/DNBLog.h; sourceTree = SOURCE_ROOT; };
+		7D5B9F7AE2544B9FAE84730C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBArchImplARM64.cpp; path = source/MacOSX/arm64/DNBArchImplARM64.cpp; sourceTree = SOURCE_ROOT; };
+		81A4051A5893417EADBF383A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBError.cpp; path = source/DNBError.cpp; sourceTree = SOURCE_ROOT; };
+		81C313F306964B02B4A857C5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBThreadResumeActions.h; path = source/DNBThreadResumeActions.h; sourceTree = SOURCE_ROOT; };
+		86FB9856162E4EC2A1925124 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = source/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		87754EF0B0A747D5A26BD7CC /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadMutex.h; path = source/PThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		87803990EF164040870B8D5B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PseudoTerminal.h; path = source/PseudoTerminal.h; sourceTree = SOURCE_ROOT; };
+		8805B03006234BE289A3B2CF /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8857720F2C874373822CE912 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = libdebugserver.cpp; path = source/libdebugserver.cpp; sourceTree = SOURCE_ROOT; };
+		897A832C84A5467F845F2AAE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBArchImplI386.cpp; path = source/MacOSX/i386/DNBArchImplI386.cpp; sourceTree = SOURCE_ROOT; };
+		89944226D4EB4EC79C447FC1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBError.h; path = source/DNBError.h; sourceTree = SOURCE_ROOT; };
+		902D3DEA12F449C0A4585918 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBRegisterInfo.cpp; path = source/DNBRegisterInfo.cpp; sourceTree = SOURCE_ROOT; };
+		903BABD906D7406DBACB0B52 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = StringConvert.h; path = source/StringConvert.h; sourceTree = SOURCE_ROOT; };
+		90DE6904EF9E4BBB8396D31F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBThreadResumeActions.h; path = source/DNBThreadResumeActions.h; sourceTree = SOURCE_ROOT; };
+		92DA9991437F4819BB542C07 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARM_DWARF_Registers.h; path = source/ARM_DWARF_Registers.h; sourceTree = SOURCE_ROOT; };
+		9473511DB1CC4371BABCD1D2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBArch.h; path = source/DNBArch.h; sourceTree = SOURCE_ROOT; };
+		9895B0279A1C47E4B452B91F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JSON.cpp; path = source/JSON.cpp; sourceTree = SOURCE_ROOT; };
+		99ABC5DB01084AC7AE1AE2B9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBTimer.h; path = source/DNBTimer.h; sourceTree = SOURCE_ROOT; };
+		9E1B9142AA7647728A281442 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RNBSocket.cpp; path = source/RNBSocket.cpp; sourceTree = SOURCE_ROOT; };
+		A178600134DE4F95BEEB0170 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = StdStringExtractor.h; path = source/StdStringExtractor.h; sourceTree = SOURCE_ROOT; };
+		A24759D54F0446FEB143FAFE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MachVMMemory.cpp; path = source/MacOSX/MachVMMemory.cpp; sourceTree = SOURCE_ROOT; };
+		A5786E4B02C14511AF8C3F0D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMRegion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MachVMRegion.cpp; path = source/MacOSX/MachVMRegion.cpp; sourceTree = SOURCE_ROOT; };
+		A8F7795DC5374898880A1A1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/debugserver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = debugserver.cpp; path = source/debugserver.cpp; sourceTree = SOURCE_ROOT; };
+		ACC96F3096374981909C67BA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBDefs.h; path = source/DNBDefs.h; sourceTree = SOURCE_ROOT; };
+		BAAA6F7752A54CD889E11649 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBArchImplX86_64.cpp; path = source/MacOSX/x86_64/DNBArchImplX86_64.cpp; sourceTree = SOURCE_ROOT; };
+		BB6F4D51671847BABFD7D814 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBRuntimeAction.h; path = source/DNBRuntimeAction.h; sourceTree = SOURCE_ROOT; };
+		BBA2DD86AB3D4BCDB0958CB6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = MachTask.mm; path = source/MacOSX/MachTask.mm; sourceTree = SOURCE_ROOT; };
+		BBD1F567E25346FA9134A569 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = TTYState.h; path = source/TTYState.h; sourceTree = SOURCE_ROOT; };
+		C28CCD830A884D18A8A4251C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBDefs.h; path = source/DNBDefs.h; sourceTree = SOURCE_ROOT; };
+		C8A10CB8AA6E46BCB88FE2D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBSocket.h; path = source/RNBSocket.h; sourceTree = SOURCE_ROOT; };
+		CCC4FDF8494B42B294638250 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBDefs.h; path = source/RNBDefs.h; sourceTree = SOURCE_ROOT; };
+		CE678C77456E4F588392E82C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PThreadEvent.cpp; path = source/PThreadEvent.cpp; sourceTree = SOURCE_ROOT; };
+		CF266516C6B64FD785812682 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSONGenerator.h; path = source/JSONGenerator.h; sourceTree = SOURCE_ROOT; };
+		D0D5F98C1DEE4783BA49EEBB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D6228752C2DA44B5B4BC5802 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_excUser.c; path = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c"; sourceTree = "<absolute>"; };
+		D948E6B2DC7845D5A5640819 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadCondition.h; path = source/PThreadCondition.h; sourceTree = SOURCE_ROOT; };
+		D9CE5E9582BE430989D425E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MachThreadList.cpp; path = source/MacOSX/MachThreadList.cpp; sourceTree = SOURCE_ROOT; };
+		DD96D0CED8DB49E1881BCC6A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SysSignal.h; path = source/SysSignal.h; sourceTree = SOURCE_ROOT; };
+		DED41FBD6B0F462CAB73C514 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBRemote.h; path = source/RNBRemote.h; sourceTree = SOURCE_ROOT; };
+		E590034D38094AAA975946EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBRemote.h; path = source/RNBRemote.h; sourceTree = SOURCE_ROOT; };
+		E61F69A3CF784B1CB1B50AD8 /* lldbDebugserverCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblldbDebugserverCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7795BD3F58A4462A169656E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SysSignal.h; path = source/SysSignal.h; sourceTree = SOURCE_ROOT; };
+		E9EB12C22AA44D8282E0E2E4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBLog.h; path = source/DNBLog.h; sourceTree = SOURCE_ROOT; };
+		EB45FE9CE70640C2A24224AF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RNBServices.h; path = source/RNBServices.h; sourceTree = SOURCE_ROOT; };
+		EC089A4755AD4D8899035EB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DNBThreadResumeActions.cpp; path = source/DNBThreadResumeActions.cpp; sourceTree = SOURCE_ROOT; };
+		ECE1A2E8B5D84910B2C06C1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DNBTimer.h; path = source/DNBTimer.h; sourceTree = SOURCE_ROOT; };
+		F4A530B66D1F4F56B429F104 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JSONGenerator.h; path = source/JSONGenerator.h; sourceTree = SOURCE_ROOT; };
+		F64179F303994239B8676281 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFString.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CFString.cpp; path = source/MacOSX/CFString.cpp; sourceTree = SOURCE_ROOT; };
+		F9008FD5093A4B558CC145EC /* lldbDebugserverArchSupport */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblldbDebugserverArchSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1B83888D324A9AA17ED3A4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PThreadMutex.h; path = source/PThreadMutex.h; sourceTree = SOURCE_ROOT; };
+		FC73CE7B93B147CA84AED08D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SysSignal.cpp; path = source/SysSignal.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129DAA036BF6403CAA968153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800BAB3B2E1F4E6D8389B54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E509AE594C5644A4819A3133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413639A097044D60BCB1BEBC /* lldbDebugserverCommon */ = {
+			isa = PBXGroup;
+			children = (
+				71A2901274E947DA82355F91 /* Source Files */,
+				BD2D1C02FB7C40339C6E65A9 /* Header Files */,
+				A75308D549AE46F0896FB667 /* CMake Rules */,
+				86FB9856162E4EC2A1925124 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */,
+			);
+			name = lldbDebugserverCommon;
+			sourceTree = "<group>";
+		};
+		4BF5535E06ED4266A14428CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5550020A62A54902A4FE3953 /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/CoreFoundation.framework */,
+				8805B03006234BE289A3B2CF /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Foundation.framework */,
+				526903BF564A4B1689BC9C3A /* /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53081EABC5514BCBB6AC903F /* debugserver */ = {
+			isa = PBXGroup;
+			children = (
+				413639A097044D60BCB1BEBC /* lldbDebugserverCommon */,
+				CFA2D6F30C2D4BF78E217CB3 /* debugserver */,
+				E493A8E4207A44DCBDB1257E /* lldbDebugserverArchSupport */,
+			);
+			name = debugserver;
+			sourceTree = "<group>";
+		};
+		70B3E3F80D194003B23AE1A1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F7795DC5374898880A1A1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/debugserver.cpp */,
+				469A4CEC7E82429F81F75724 /* /Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		71A2901274E947DA82355F91 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EAF23B3C6174DFD853E2175 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c */,
+				410C7E8DF6FC45FF9F3134D0 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c */,
+				D6228752C2DA44B5B4BC5802 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c */,
+				55A7FF0CFE3B4D50AD54EFB3 /* /Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp */,
+				66CD515B01C547199134F228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.cpp */,
+				6AE2868CC51340CF92C3A733 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.cpp */,
+				154F357D9D6B4E88A4DF1D78 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.cpp */,
+				3472B824F1464C0C8CBD6BE4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.cpp */,
+				81A4051A5893417EADBF383A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.cpp */,
+				5D31E918742A4AB290C08438 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.cpp */,
+				902D3DEA12F449C0A4585918 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.cpp */,
+				EC089A4755AD4D8899035EB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.cpp */,
+				9895B0279A1C47E4B452B91F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.cpp */,
+				482E482B9C68445DA6C28F0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFBundle.cpp */,
+				F64179F303994239B8676281 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFString.cpp */,
+				575CE3E8D92248BD98AC3FA7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.cpp */,
+				4B8F3DF49F5045ED9804799E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.cpp */,
+				4D2685B277B04030A47164E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.mm */,
+				BBA2DD86AB3D4BCDB0958CB6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm */,
+				565BA26B095C4F4F9E2EDF25 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.cpp */,
+				D9CE5E9582BE430989D425E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.cpp */,
+				A24759D54F0446FEB143FAFE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.cpp */,
+				A5786E4B02C14511AF8C3F0D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMRegion.cpp */,
+				3D38A876239542D9B4F37228 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/OsLogger.cpp */,
+				CE678C77456E4F588392E82C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.cpp */,
+				20738FF265314298A1518A0A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.cpp */,
+				6F70B804A2E549D0A4054FED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.cpp */,
+				5DA5BA560DB3449D9005AD29 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.cpp */,
+				1662B800BCAA4D5CB951ED1F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.cpp */,
+				2E8CA58BF6714C48BF8F06C7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.cpp */,
+				9E1B9142AA7647728A281442 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.cpp */,
+				10927DDE59304954BECEFC7F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.cpp */,
+				795DDC889EC64023AC002366 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.cpp */,
+				FC73CE7B93B147CA84AED08D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.cpp */,
+				4072555D439948229DCF06E2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.cpp */,
+				8857720F2C874373822CE912 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8E6249B4B0154C95BBE599BC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E8A647FA9C3F4420BEF20EE6 /* CMake Rules */,
+				D0D5F98C1DEE4783BA49EEBB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9E821A011C2E4B21B664824F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DA9991437F4819BB542C07 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */,
+				1C9C922C95A649FCB535B16E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */,
+				5496B9FAF44243C8B1073F94 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */,
+				9473511DB1CC4371BABCD1D2 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */,
+				5566A02B8EF942D695503BC3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */,
+				2C50EF3B8AE74FDBBCCB2347 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */,
+				ACC96F3096374981909C67BA /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */,
+				89944226D4EB4EC79C447FC1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */,
+				E9EB12C22AA44D8282E0E2E4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */,
+				2D2B4D66A9C1404F83DAC58E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */,
+				BB6F4D51671847BABFD7D814 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */,
+				81C313F306964B02B4A857C5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */,
+				99ABC5DB01084AC7AE1AE2B9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */,
+				36D2CC4AA7A5426085B6041F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */,
+				CF266516C6B64FD785812682 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */,
+				D948E6B2DC7845D5A5640819 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */,
+				1F0FECFACCDE4ABF81B3AF84 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */,
+				FA1B83888D324A9AA17ED3A4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */,
+				87803990EF164040870B8D5B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */,
+				553B47205C564E139A7ACD92 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */,
+				CCC4FDF8494B42B294638250 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */,
+				E590034D38094AAA975946EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */,
+				EB45FE9CE70640C2A24224AF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */,
+				C8A10CB8AA6E46BCB88FE2D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */,
+				A178600134DE4F95BEEB0170 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */,
+				903BABD906D7406DBACB0B52 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */,
+				DD96D0CED8DB49E1881BCC6A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */,
+				BBD1F567E25346FA9134A569 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */,
+				35D5624B806F4052B64DC482 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A75308D549AE46F0896FB667 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				5EBF7EFE553644E39C005EC5 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B56A4E624A0E45CAB58149EB = {
+			isa = PBXGroup;
+			children = (
+				8E6249B4B0154C95BBE599BC /* ALL_BUILD */,
+				B716AD734C184DC785A8FA5B /* lldb libraries */,
+				CA38568A9B98471C9509696F /* Products */,
+				4BF5535E06ED4266A14428CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B716AD734C184DC785A8FA5B /* lldb libraries */ = {
+			isa = PBXGroup;
+			children = (
+				53081EABC5514BCBB6AC903F /* debugserver */,
+			);
+			name = "lldb libraries";
+			sourceTree = "<group>";
+		};
+		BD2D1C02FB7C40339C6E65A9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				061E09600844474D87236690 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h */,
+				6469BCB115B34DE69A7118D6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_DWARF_Registers.h */,
+				46150A0BC0F74AFD8992456C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/ARM_ehframe_Registers.h */,
+				3F9A47C1C36C43D3920C2B7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h */,
+				4F2E8E8B72CD47F28590C736 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h */,
+				3AE0F0E00B8E4BD0ABAA8B75 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h */,
+				08A88B315659474F90C0F7E9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h */,
+				C28CCD830A884D18A8A4251C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h */,
+				05384BF3669A4322BBFAC1EF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h */,
+				7C701F42BA43458CB738E562 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h */,
+				0EECD08ABCA44220A564FE80 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h */,
+				18DDAB1565314E43AE1319AB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRuntimeAction.h */,
+				90DE6904EF9E4BBB8396D31F /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h */,
+				ECE1A2E8B5D84910B2C06C1A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBTimer.h */,
+				38B424EAA22C4F01BC25CCB7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.h */,
+				F4A530B66D1F4F56B429F104 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h */,
+				22120871B342463DBF3E75B8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h */,
+				083B124BFE1A4FA9B4E9DDB1 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h */,
+				87754EF0B0A747D5A26BD7CC /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h */,
+				6CB4E06152C0438994BE8E38 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.h */,
+				6FC0D519983E481B875B0FBF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h */,
+				6495DB5011A14E4F8E32A8C8 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h */,
+				DED41FBD6B0F462CAB73C514 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.h */,
+				5BC86B36CBA54DF1845E5290 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.h */,
+				2200381101E4457987EFA609 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.h */,
+				2235EB5B573F4C07A8059A6D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.h */,
+				5B9786C1753C448E8ADDD379 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.h */,
+				E7795BD3F58A4462A169656E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.h */,
+				1E5866D316BA471B8237DB19 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.h */,
+				45D4EBCB8D4D489B9CDADD18 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		CA38568A9B98471C9509696F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3F18E659A448AF95F8F6AF /* debugserver */,
+				F9008FD5093A4B558CC145EC /* lldbDebugserverArchSupport */,
+				E61F69A3CF784B1CB1B50AD8 /* lldbDebugserverCommon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC7D46C6612E490197D0A7A8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0337F38ED9044EACB362FB6C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.cpp */,
+				7D5B9F7AE2544B9FAE84730C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.cpp */,
+				897A832C84A5467F845F2AAE /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.cpp */,
+				BAAA6F7752A54CD889E11649 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CFA2D6F30C2D4BF78E217CB3 /* debugserver */ = {
+			isa = PBXGroup;
+			children = (
+				70B3E3F80D194003B23AE1A1 /* Source Files */,
+				9E821A011C2E4B21B664824F /* Header Files */,
+				08449A05EDE84D3DA1AE6A7B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/CMakeLists.txt */,
+			);
+			name = debugserver;
+			sourceTree = "<group>";
+		};
+		E493A8E4207A44DCBDB1257E /* lldbDebugserverArchSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D46C6612E490197D0A7A8 /* Source Files */,
+				2395DF6E1E97452283D1EC68 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CMakeLists.txt */,
+			);
+			name = lldbDebugserverArchSupport;
+			sourceTree = "<group>";
+		};
+		E8A647FA9C3F4420BEF20EE6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843E1164F5AB4347A9A954D7 /* lldbDebugserverCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4C737F8E854F3CBB79535D /* Build configuration list for PBXNativeTarget "lldbDebugserverCommon" */;
+			buildPhases = (
+				7DFBA881112C968812A2EED5 /* Generate source/mach_exc.h */,
+				E715CE47C7AA46C69BE87346 /* Sources */,
+				800BAB3B2E1F4E6D8389B54F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lldbDebugserverCommon;
+			productName = lldbDebugserverCommon;
+			productReference = E61F69A3CF784B1CB1B50AD8 /* lldbDebugserverCommon */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA048E91374740D2B4E96221 /* lldbDebugserverArchSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42CBB47C2D34C4789B27AA6 /* Build configuration list for PBXNativeTarget "lldbDebugserverArchSupport" */;
+			buildPhases = (
+				85A6777EC1814924AB0E7BC3 /* Sources */,
+				129DAA036BF6403CAA968153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lldbDebugserverArchSupport;
+			productName = lldbDebugserverArchSupport;
+			productReference = F9008FD5093A4B558CC145EC /* lldbDebugserverArchSupport */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2572B9A8AC84FD7899062C5 /* debugserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A62640426D4648BF1CC028 /* Build configuration list for PBXNativeTarget "debugserver" */;
+			buildPhases = (
+				1FC54F0A37084775803B8CB8 /* Sources */,
+				E509AE594C5644A4819A3133 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4C1B4DC62C74CE0AC3F2CD8 /* PBXTargetDependency */,
+				0A580FCD18FC47CBB9B33496 /* PBXTargetDependency */,
+			);
+			name = debugserver;
+			productName = debugserver;
+			productReference = 5B3F18E659A448AF95F8F6AF /* debugserver */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980D3CF2C521407E8339D474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 912454C780924A14879472C8 /* Build configuration list for PBXProject "Debugserver" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E2772DAA407F46328E03ACB6 /* Debug */,
+				714020F0182948C483879132 /* Release */,
+				6047630F86834071AC6512A4 /* MinSizeRel */,
+				0B58A878F6D9486384E1631D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B56A4E624A0E45CAB58149EB;
+			projectDirPath = "/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver";
+			projectRoot = "";
+			targets = (
+				EFE6C1871FAD4DA7BF39CF40 /* ALL_BUILD */,
+				28790E8734774C58A36900B4 /* ZERO_CHECK */,
+				E2572B9A8AC84FD7899062C5 /* debugserver */,
+				4036AC3C9AE641F08E13D9B0 /* install */,
+				BA048E91374740D2B4E96221 /* lldbDebugserverArchSupport */,
+				843E1164F5AB4347A9A954D7 /* lldbDebugserverCommon */,
+				32429DEE82BE48D0ABF978D5 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4CE480977DA31A26959BC777 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  make -f /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  make -f /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  make -f /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  make -f /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE
+  /Applications/CMake.app/Contents/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7DFBA881112C968812A2EED5 /* Generate source/mach_exc.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/dbgnub-mig.defs"			);
+			name = "Generate source/mach_exc.h";
+			outputPaths = (
+"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_exc.h","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source
+  mig -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/dbgnub-mig.defs
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source
+  mig -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/dbgnub-mig.defs
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source
+  mig -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/dbgnub-mig.defs
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source
+  mig -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/dbgnub-mig.defs
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION -DEFFECTIVE_PLATFORM_NAME=$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E1E2620F0C4C6A7702ACFF33 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC54F0A37084775803B8CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95806F606A384F10BD1286D9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/debugserver.cpp */,
+				F1A5FCE2AB1843B89DE2B943 /* /Users/bangcle/apple-llvm-project_ios/llvm/cmake/dummy.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85A6777EC1814924AB0E7BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8712D604D41F44BEB7DFD37D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.cpp */,
+				00A2937907254DE8B34A4E15 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.cpp */,
+				5351BD06C8164B2AACA7FD60 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.cpp */,
+				2822B7FD659F4330B1E2BBF5 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E715CE47C7AA46C69BE87346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7DEF762DD144A7A3865FC3 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/debugserver_vers.c */,
+				06F359168E264F4DAD6F12DA /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excServer.c */,
+				15E3FE49924B49AE96AA25E1 /* /Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/mach_excUser.c */,
+				52AD79D0FF8A436F86D61355 /* /Users/bangcle/apple-llvm-project_ios/lldb/source/Host/common/SocketAddress.cpp */,
+				162772BE3DA24CA9908517E9 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.cpp */,
+				E4D220DAD2614EBBBCFE16ED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.cpp */,
+				1DB85BC957C649A79BA74B1B /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.cpp */,
+				F251EF9614724327AA00A933 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.cpp */,
+				439B68FF44E040F783CF0165 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.cpp */,
+				1DB0B447BB494D1688D66F79 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.cpp */,
+				25006296BABA4FBE86E4D1B3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.cpp */,
+				2847285D7F114719A13BEAF6 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.cpp */,
+				4EA4DA582FB641498967C892 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSON.cpp */,
+				659C766A1BC44CAAA0C4F3F7 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFBundle.cpp */,
+				F0CBB822A8D74075B04BDBED /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFString.cpp */,
+				0B800772CBB44EC2B0D6ACE4 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.cpp */,
+				86B1137B3C8D4D25AEA35182 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.cpp */,
+				15B1CB2AD3884F5994997716 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.mm */,
+				63133D8C534A487EB8D50E35 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm */,
+				FB93EBA2C5454C9B8F5C53C0 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.cpp */,
+				E0BB546392C546189D394C5E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.cpp */,
+				EEFAD590F2D54BD3A1FA7E0C /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.cpp */,
+				FA5B20B5697A4C3F9D1F0279 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMRegion.cpp */,
+				944D11B93B914C0B877243AF /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/OsLogger.cpp */,
+				F68B300351404BBB99843857 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.cpp */,
+				E21932ADC46647D4923172E3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.cpp */,
+				B05F8B831C2A4A2096F3D249 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PseudoTerminal.cpp */,
+				FEBE0BA19DC54D1C9FF4C56A /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.cpp */,
+				0173C244D8A442FDAC1845C3 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBRemote.cpp */,
+				410A1BDC23BF4047BB7C3B53 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBServices.cpp */,
+				AA432871E0C94669942F373D /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBSocket.cpp */,
+				E45578B44BC6467CB007A566 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StdStringExtractor.cpp */,
+				B4F4D4CA8F9F433FB2EFDA9E /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/StringConvert.cpp */,
+				AE920516AEC1490697DBDEDB /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/SysSignal.cpp */,
+				9CF7C3C4DA424B2CA4BBA904 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/TTYState.cpp */,
+				86AC8141920B4A35BB300E77 /* /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/libdebugserver.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A580FCD18FC47CBB9B33496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA048E91374740D2B4E96221 /* lldbDebugserverArchSupport */;
+			targetProxy = 170C6AADB7134790B9A9D712 /* PBXContainerItemProxy */;
+		};
+		6C633F39EF104F4CB5D31A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE6C1871FAD4DA7BF39CF40 /* ALL_BUILD */;
+			targetProxy = 57469C0C16CF4540AFEB504F /* PBXContainerItemProxy */;
+		};
+		87BF4A9849C1425884E7ED8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE6C1871FAD4DA7BF39CF40 /* ALL_BUILD */;
+			targetProxy = 445CABE716E741C197C315D1 /* PBXContainerItemProxy */;
+		};
+		A4C1B4DC62C74CE0AC3F2CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843E1164F5AB4347A9A954D7 /* lldbDebugserverCommon */;
+			targetProxy = 9438EB5CCBF8406297C0D0E6 /* PBXContainerItemProxy */;
+		};
+		B136CAA005B543B396E03956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28790E8734774C58A36900B4 /* ZERO_CHECK */;
+			targetProxy = 5F1354CA1B0242C8A4675F73 /* PBXContainerItemProxy */;
+		};
+		D0EEC0A4191B4B13B8AE5B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA048E91374740D2B4E96221 /* lldbDebugserverArchSupport */;
+			targetProxy = CB8546E5D4E7417B9F28CAB8 /* PBXContainerItemProxy */;
+		};
+		DDE3DF0B51DE4B15B5B6E741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843E1164F5AB4347A9A954D7 /* lldbDebugserverCommon */;
+			targetProxy = E6ABADD1D07D4162AEF77CED /* PBXContainerItemProxy */;
+		};
+		EA9374DAF20847EE9948A8E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2572B9A8AC84FD7899062C5 /* debugserver */;
+			targetProxy = 03E5111787234CBDB84F67BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00D92669AB434D58AF3F103A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk;
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/build";
+			};
+			name = Debug;
+		};
+		183FC5061E76462391FA360D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source",/arm,/arm64,/i386,/x86_64,"/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/..","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverArchSupport;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		24FC20D1A7EB4092BB85DA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		262136A1269A4004A0EB5633 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk;
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/build";
+			};
+			name = MinSizeRel;
+		};
+		26A5AAA938FC4ACB90F823EB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2A6D7793FDBF41F2BFD902C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2BA2DFB909C84F9387F47D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33FCF2222D1F4821B6B06139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		35D78B93E1794800A21C3EE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk;
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/build";
+			};
+			name = RelWithDebInfo;
+		};
+		3AFFC1F31355457FA3C727CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3F36EDDF46304702B6BDB8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/debugserver-macosx-entitlements.plist";
+				CODE_SIGN_IDENTITY = lldb_codesign;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Release/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path/../lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG  -fno-exceptions -fno-rtti '-std=c++14' ";
+				OTHER_LDFLAGS = (" -stdlib=libc++ -Wl,-sectcreate,__TEXT,__info_plist,/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/lldb-debugserver-Info.plist -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Release/lib/liblldbDebugserverCommon.a","-Xlinker -framework -Xlinker CoreFoundation","-Xlinker -framework -Xlinker Foundation","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/Release/liblldbDebugserverArchSupport.a","-Xlinker -framework -Xlinker Security","-lcompression","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = debugserver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		40DC3A9C77D84A18B2763318 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		587F949E133545F48C9447D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5B423E08645E4496A3F128A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D57264935A34EA397C03D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Debug/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation    ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array    '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverCommon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5FC14FFE58964343BE737968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		60746D5C933B445898409F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/debugserver-macosx-entitlements.plist";
+				CODE_SIGN_IDENTITY = lldb_codesign;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Debug/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path/../lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -fno-exceptions -fno-rtti '-std=c++14' ";
+				OTHER_LDFLAGS = (" -stdlib=libc++ -Wl,-sectcreate,__TEXT,__info_plist,/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/lldb-debugserver-Info.plist -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Debug/lib/liblldbDebugserverCommon.a","-Xlinker -framework -Xlinker CoreFoundation","-Xlinker -framework -Xlinker Foundation","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/Debug/liblldbDebugserverArchSupport.a","-Xlinker -framework -Xlinker Security","-lcompression","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = debugserver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7AB555FFB34B4855BCD465AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/debugserver-macosx-entitlements.plist";
+				CODE_SIGN_IDENTITY = lldb_codesign;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/RelWithDebInfo/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path/../lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array        -DNDEBUG  -fno-exceptions -fno-rtti '-std=c++14' ";
+				OTHER_LDFLAGS = (" -stdlib=libc++ -Wl,-sectcreate,__TEXT,__info_plist,/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/lldb-debugserver-Info.plist -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/RelWithDebInfo/lib/liblldbDebugserverCommon.a","-Xlinker -framework -Xlinker CoreFoundation","-Xlinker -framework -Xlinker Foundation","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/RelWithDebInfo/liblldbDebugserverArchSupport.a","-Xlinker -framework -Xlinker Security","-lcompression","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = debugserver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7DFBEAFBF5004AEF942F942F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/Release/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation     -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverCommon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		96BAE956CC094C5A82DEDC0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source",/arm,/arm64,/i386,/x86_64,"/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/..","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array        -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverArchSupport;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AABA7156928D4356B0F3D39F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C017DB50B1FD406DAD2EC04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source",/arm,/arm64,/i386,/x86_64,"/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/..","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverArchSupport;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C5114204FA7F410C9F17B19D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C5FF76C772104EF98C7949FD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/MinSizeRel/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation     -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverCommon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D0CEAB31C26840A7868F5DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk;
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/build";
+			};
+			name = Release;
+		};
+		D59F4EBE75E0479EBC9682A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E5827F2A655A424891D17470 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/RelWithDebInfo/lib";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wstring-conversion -Wmisleading-indentation        -DNDEBUG ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array        -DNDEBUG '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverCommon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F2DD4E5E6E1F42E7BF95B46B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F502AE77592C446AB5455CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source",/arm,/arm64,/i386,/x86_64,"/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/..","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array    '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lldbDebugserverArchSupport;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/MacOSX";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F7E3E551FDD44197BC0A7AAE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/debugserver-macosx-entitlements.plist";
+				CODE_SIGN_IDENTITY = lldb_codesign;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/MinSizeRel/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GTEST_HAS_RTTI=0'",_DEBUG,__STDC_CONSTANT_MACROS,__STDC_FORMAT_MACROS,__STDC_LIMIT_MACROS,HAVE_ROUND,LLDB_CONFIGURATION_DEBUG,LLDB_USE_OS_LOG,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source","/Users/bangcle/apple-llvm-project_ios/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/include","/Users/bangcle/apple-llvm-project_ios/llvm/include",/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/include/python3.9,"/Users/bangcle/apple-llvm-project_ios/clang/include","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../clang/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/include","/Users/bangcle/apple-llvm-project_ios/llvm/tools/swift/stdlib/public/SwiftShims","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/../swift/include",/usr/local/include,/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/include/libxml2,"/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source/..","/Users/bangcle/apple-llvm-project_ios/lldb/source","/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX","$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("@loader_path/../lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = " -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -pedantic -Wno-long-long -Wc++98-compat-extra-semi -Wimplicit-fallthrough -Wcovered-switch-default -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -Wno-deprecated-declarations -Wno-unknown-pragmas -Wno-strict-aliasing -Wno-deprecated-register -Wno-vla-extension -Wno-gnu-zero-variadic-macro-arguments -Wno-zero-length-array     -DNDEBUG  -fno-exceptions -fno-rtti '-std=c++14' ";
+				OTHER_LDFLAGS = (" -stdlib=libc++ -Wl,-sectcreate,__TEXT,__info_plist,/Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/../resources/lldb-debugserver-Info.plist -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/MinSizeRel/lib/liblldbDebugserverCommon.a","-Xlinker -framework -Xlinker CoreFoundation","-Xlinker -framework -Xlinker Foundation","/Users/bangcle/apple-llvm-project_ios/build/NATIVE/lib/MinSizeRel/liblldbDebugserverArchSupport.a","-Xlinker -framework -Xlinker Security","-lcompression","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = debugserver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver/source";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FDDE8BFA5DFC4347AF875DD1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF3CD9B35B0E4A568ABAB423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/tools/lldb/tools/debugserver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A62640426D4648BF1CC028 /* Build configuration list for PBXNativeTarget "debugserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60746D5C933B445898409F46 /* Debug */,
+				3F36EDDF46304702B6BDB8BE /* Release */,
+				F7E3E551FDD44197BC0A7AAE /* MinSizeRel */,
+				7AB555FFB34B4855BCD465AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7030B1D8E6AF4614B9DC2388 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC14FFE58964343BE737968 /* Debug */,
+				33FCF2222D1F4821B6B06139 /* Release */,
+				FDDE8BFA5DFC4347AF875DD1 /* MinSizeRel */,
+				C5114204FA7F410C9F17B19D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		844DB18AA0FC4F1090BDF35B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59F4EBE75E0479EBC9682A7 /* Debug */,
+				587F949E133545F48C9447D0 /* Release */,
+				F2DD4E5E6E1F42E7BF95B46B /* MinSizeRel */,
+				40DC3A9C77D84A18B2763318 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C4C737F8E854F3CBB79535D /* Build configuration list for PBXNativeTarget "lldbDebugserverCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D57264935A34EA397C03D16 /* Debug */,
+				7DFBEAFBF5004AEF942F942F /* Release */,
+				C5FF76C772104EF98C7949FD /* MinSizeRel */,
+				E5827F2A655A424891D17470 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		912454C780924A14879472C8 /* Build configuration list for PBXProject "Debugserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D92669AB434D58AF3F103A /* Debug */,
+				D0CEAB31C26840A7868F5DB6 /* Release */,
+				262136A1269A4004A0EB5633 /* MinSizeRel */,
+				35D78B93E1794800A21C3EE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B2CDFB998B6420D8B6D596E /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3CD9B35B0E4A568ABAB423 /* Debug */,
+				3AFFC1F31355457FA3C727CB /* Release */,
+				5B423E08645E4496A3F128A0 /* MinSizeRel */,
+				AABA7156928D4356B0F3D39F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C42CBB47C2D34C4789B27AA6 /* Build configuration list for PBXNativeTarget "lldbDebugserverArchSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F502AE77592C446AB5455CB6 /* Debug */,
+				C017DB50B1FD406DAD2EC04C /* Release */,
+				183FC5061E76462391FA360D /* MinSizeRel */,
+				96BAE956CC094C5A82DEDC0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9FA5E5DC91F45CBA940219C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FC20D1A7EB4092BB85DA29 /* Debug */,
+				2BA2DFB909C84F9387F47D8F /* Release */,
+				2A6D7793FDBF41F2BFD902C4 /* MinSizeRel */,
+				26A5AAA938FC4ACB90F823EB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980D3CF2C521407E8339D474 /* Project object */;
+}

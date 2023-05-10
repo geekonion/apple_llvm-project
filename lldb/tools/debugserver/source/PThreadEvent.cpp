@@ -110,6 +110,7 @@ void PThreadEvent::ResetEvents(const uint32_t mask) {
 uint32_t
 PThreadEvent::WaitForSetEvents(const uint32_t mask,
                                const struct timespec *timeout_abstime) const {
+  timeout_abstime = NULL;
   // DNBLogThreadedIf(LOG_EVENTS, "%p PThreadEvent::%s (0x%8.8x, %p)", this,
   // __FUNCTION__, mask, timeout_abstime);
   int err = 0;

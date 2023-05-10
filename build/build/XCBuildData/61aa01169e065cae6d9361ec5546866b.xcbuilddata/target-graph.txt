@@ -1,0 +1,324 @@
+Target dependency graph (83 targets)
+ZERO_CHECK in LLVM, no dependencies
+LLVMDemangle in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+LLVMSupportBlake3 in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+LLVMSupport in LLVM, depends on:
+LLVMSupportBlake3 in LLVM (explicit)
+LLVMDemangle in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+LLVMTableGen in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+LLVMTableGenGlobalISel in LLVM, depends on:
+LLVMTableGen in LLVM (explicit)
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+llvm-tblgen in LLVM, depends on:
+LLVMTableGen in LLVM (explicit)
+LLVMTableGenGlobalISel in LLVM (explicit)
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+CREATE_LLVM_NATIVE in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+CONFIGURE_LLVM_NATIVE in LLVM, depends on:
+CREATE_LLVM_NATIVE in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+LLVM-tablegen-host in LLVM, depends on:
+llvm-tblgen in LLVM (explicit)
+CONFIGURE_LLVM_NATIVE in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+omp_gen in LLVM, depends on:
+LLVM-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+clangSupport in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+clang-tblgen in LLVM, depends on:
+LLVMTableGen in LLVM (explicit)
+clangSupport in LLVM (explicit)
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+CLANG-tablegen-host in LLVM, depends on:
+LLVM-tablegen-host in LLVM (explicit)
+clang-tblgen in LLVM (explicit)
+CONFIGURE_LLVM_NATIVE in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrClasses in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrImpl in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrTextDump in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrTraverse in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrVisitor in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangStmtNodes in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDeclNodes in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangTypeNodes in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAbstractBasicReader in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAbstractBasicWriter in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAbstractTypeReader in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAbstractTypeWriter in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentNodes in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentHTMLTags in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentHTMLTagsProperties in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentHTMLNamedCharacterReferences in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentCommandInfo in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangCommentCommandList in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+StmtDataCollectors in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticAnalysis in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticAST in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticCAS in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticComment in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticCommon in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticCrossTU in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticDriver in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticFrontend in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticLex in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticParse in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticRefactoring in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticSema in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticSerialization in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticGroups in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangDiagnosticIndexName in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrList in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrSubjectMatchRuleList in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrHasAttributeImpl in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMNeon in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMFP16 in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMMveBuiltinsDef in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMMveBuiltinCG in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMMveBuiltinSema in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMMveBuiltinAliases in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMSveBuiltins in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMSveBuiltinCG in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMSveTypeFlags in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMSveSemaRangeChecks in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMCdeBuiltinsDef in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMCdeBuiltinCG in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMCdeBuiltinSema in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangARMCdeBuiltinAliases in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangRISCVVectorBuiltins in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangRISCVVectorBuiltinCG in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrParserStringSwitches in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrSubMatchRulesParserStringSwitches in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrTemplateInstantiate in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrParsedAttrList in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrParsedAttrKinds in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrSpellingListIndex in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrParsedAttrImpl in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrPCHRead in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangAttrPCHWrite in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangSACheckers in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangSyntaxNodeList in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+ClangSyntaxNodeClasses in LLVM, depends on:
+CLANG-tablegen-host in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+clang-tablegen-targets in LLVM, depends on:
+omp_gen in LLVM (explicit)
+ClangAttrClasses in LLVM (explicit)
+ClangAttrImpl in LLVM (explicit)
+ClangAttrTextDump in LLVM (explicit)
+ClangAttrTraverse in LLVM (explicit)
+ClangAttrVisitor in LLVM (explicit)
+ClangStmtNodes in LLVM (explicit)
+ClangDeclNodes in LLVM (explicit)
+ClangTypeNodes in LLVM (explicit)
+ClangAbstractBasicReader in LLVM (explicit)
+ClangAbstractBasicWriter in LLVM (explicit)
+ClangAbstractTypeReader in LLVM (explicit)
+ClangAbstractTypeWriter in LLVM (explicit)
+ClangCommentNodes in LLVM (explicit)
+ClangCommentHTMLTags in LLVM (explicit)
+ClangCommentHTMLTagsProperties in LLVM (explicit)
+ClangCommentHTMLNamedCharacterReferences in LLVM (explicit)
+ClangCommentCommandInfo in LLVM (explicit)
+ClangCommentCommandList in LLVM (explicit)
+StmtDataCollectors in LLVM (explicit)
+ClangDiagnosticAnalysis in LLVM (explicit)
+ClangDiagnosticAST in LLVM (explicit)
+ClangDiagnosticCAS in LLVM (explicit)
+ClangDiagnosticComment in LLVM (explicit)
+ClangDiagnosticCommon in LLVM (explicit)
+ClangDiagnosticCrossTU in LLVM (explicit)
+ClangDiagnosticDriver in LLVM (explicit)
+ClangDiagnosticFrontend in LLVM (explicit)
+ClangDiagnosticLex in LLVM (explicit)
+ClangDiagnosticParse in LLVM (explicit)
+ClangDiagnosticRefactoring in LLVM (explicit)
+ClangDiagnosticSema in LLVM (explicit)
+ClangDiagnosticSerialization in LLVM (explicit)
+ClangDiagnosticGroups in LLVM (explicit)
+ClangDiagnosticIndexName in LLVM (explicit)
+ClangAttrList in LLVM (explicit)
+ClangAttrSubjectMatchRuleList in LLVM (explicit)
+ClangAttrHasAttributeImpl in LLVM (explicit)
+ClangARMNeon in LLVM (explicit)
+ClangARMFP16 in LLVM (explicit)
+ClangARMMveBuiltinsDef in LLVM (explicit)
+ClangARMMveBuiltinCG in LLVM (explicit)
+ClangARMMveBuiltinSema in LLVM (explicit)
+ClangARMMveBuiltinAliases in LLVM (explicit)
+ClangARMSveBuiltins in LLVM (explicit)
+ClangARMSveBuiltinCG in LLVM (explicit)
+ClangARMSveTypeFlags in LLVM (explicit)
+ClangARMSveSemaRangeChecks in LLVM (explicit)
+ClangARMCdeBuiltinsDef in LLVM (explicit)
+ClangARMCdeBuiltinCG in LLVM (explicit)
+ClangARMCdeBuiltinSema in LLVM (explicit)
+ClangARMCdeBuiltinAliases in LLVM (explicit)
+ClangRISCVVectorBuiltins in LLVM (explicit)
+ClangRISCVVectorBuiltinCG in LLVM (explicit)
+ClangAttrParserStringSwitches in LLVM (explicit)
+ClangAttrSubMatchRulesParserStringSwitches in LLVM (explicit)
+ClangAttrTemplateInstantiate in LLVM (explicit)
+ClangAttrParsedAttrList in LLVM (explicit)
+ClangAttrParsedAttrKinds in LLVM (explicit)
+ClangAttrSpellingListIndex in LLVM (explicit)
+ClangAttrParsedAttrImpl in LLVM (explicit)
+ClangAttrPCHRead in LLVM (explicit)
+ClangAttrPCHWrite in LLVM (explicit)
+ClangSACheckers in LLVM (explicit)
+ClangSyntaxNodeList in LLVM (explicit)
+ClangSyntaxNodeClasses in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+lldbDebugserverCommon in LLVM, depends on:
+clang-tablegen-targets in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+lldbDebugserverArchSupport in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+debugserver in LLVM, depends on:
+lldbDebugserverCommon in LLVM (explicit)
+lldbDebugserverArchSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)

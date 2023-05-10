@@ -1,0 +1,34 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/CMakeFiles/runtimes-configure"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/CMakeFiles/runtimes-configure.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-configure.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-patch.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-update.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-download.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"runtimes"
+		],
+		"name" : "runtimes-configure"
+	}
+}

@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/regfree.c \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/regex_impl.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/regutils.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/regex2.h

@@ -122,7 +122,7 @@ if(CMAKE_CROSSCOMPILING AND LLDB_BUILT_STANDALONE AND NOT LLDB_TABLEGEN_EXE)
       "Crosscompiling standalone requires the variables LLDB_PATH_TO_NATIVE_{SWIFT,CLANG,LLVM}_BUILD
       for building the native lldb-tblgen used during the build process.")
   endif()
-  llvm_create_cross_target(lldb NATIVE "" Release
+  llvm_create_cross_target(lldb NATIVE "" ${CMAKE_BUILD_TYPE}
     -DSwift_DIR=${LLDB_PATH_TO_NATIVE_SWIFT_BUILD}
     -DLLVM_DIR=${NATIVE_LLVM_DIR}
     -DClang_DIR=${NATIVE_Clang_DIR})

@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.mm \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachTask.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDefs.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBContext.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBError.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadEvent.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadCondition.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/PThreadMutex.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/RNBDefs.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachException.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachVMMemory.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/CFUtils.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNB.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/JSONGenerator.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/Genealogy.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/GenealogySPI.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThreadList.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachThread.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBArch.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm/DNBArchImpl.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/arm64/DNBArchImplARM64.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/i386/DNBArchImplI386.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/x86_64/DNBArchImplX86_64.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBRegisterInfo.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/ThreadInfo.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBDataRef.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBLog.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/MacOSX/MachProcess.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBBreakpoint.h \
+  /Users/bangcle/apple-llvm-project_ios/lldb/tools/debugserver/source/DNBThreadResumeActions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/BackBoardServices.framework/Headers/BKSWatchdogAssertion.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/BackBoardServices.framework/Headers/BackBoardServices.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/AssertionServices.framework/Headers/BKSApplicationStateMonitor.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/BackBoardServices.framework/Headers/BKSOpenApplication.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/PrivateFrameworks/BackBoardServices.framework/Headers/BKSSystemService.h

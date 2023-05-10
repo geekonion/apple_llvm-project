@@ -1,0 +1,25 @@
+Target dependency graph (7 targets)
+ZERO_CHECK in LLVM, no dependencies
+LLVMDemangle in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+LLVMSupportBlake3 in LLVM, depends on:
+ZERO_CHECK in LLVM (explicit)
+LLVMSupport in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupportBlake3 in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+LLVMTableGen in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+LLVMTableGenGlobalISel in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+LLVMTableGen in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)
+llvm-tblgen in LLVM, depends on:
+LLVMDemangle in LLVM (explicit)
+LLVMSupport in LLVM (explicit)
+LLVMTableGen in LLVM (explicit)
+LLVMTableGenGlobalISel in LLVM (explicit)
+ZERO_CHECK in LLVM (explicit)

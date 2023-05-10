@@ -1,0 +1,4 @@
+/Users/bangcle/apple-llvm-project_ios/build/tools/lldb/tools/debugserver/source/MacOSX/LLVM.build/Debug-iphoneos/lldbDebugserverArchSupport.build/Objects-normal/arm64/DNBArchImpl.o
+/Users/bangcle/apple-llvm-project_ios/build/tools/lldb/tools/debugserver/source/MacOSX/LLVM.build/Debug-iphoneos/lldbDebugserverArchSupport.build/Objects-normal/arm64/DNBArchImplARM64.o
+/Users/bangcle/apple-llvm-project_ios/build/tools/lldb/tools/debugserver/source/MacOSX/LLVM.build/Debug-iphoneos/lldbDebugserverArchSupport.build/Objects-normal/arm64/DNBArchImplI386.o
+/Users/bangcle/apple-llvm-project_ios/build/tools/lldb/tools/debugserver/source/MacOSX/LLVM.build/Debug-iphoneos/lldbDebugserverArchSupport.build/Objects-normal/arm64/DNBArchImplX86_64.o

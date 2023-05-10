@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/bangcle/apple-llvm-project_ios/llvm/lib/Support/StringMap.cpp \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/StringMap.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/StringMapEntry.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/None.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/StringRef.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/DenseMapInfo.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/STLFunctionalExtras.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/STLForwardCompat.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/iterator_range.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/Compiler.h \
+  /Users/bangcle/apple-llvm-project_ios/build/include/llvm/Config/llvm-config.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/ADT/iterator.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/AllocatorBase.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/MemAlloc.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/ErrorHandling.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/PointerLikeTypeTraits.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/DataTypes.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm-c/DataTypes.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/DJB.h \
+  /Users/bangcle/apple-llvm-project_ios/llvm/include/llvm/Support/MathExtras.h

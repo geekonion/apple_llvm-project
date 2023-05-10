@@ -1177,6 +1177,7 @@ void *RNBRemote::ThreadFunctionReadRemoteData(void *arg) {
     // START: main receive remote command thread loop
     bool done = false;
     while (!done) {
+      done = false;
       rnb_err_t err = remote->GetCommData();
 
       switch (err) {
@@ -1198,7 +1199,7 @@ void *RNBRemote::ThreadFunctionReadRemoteData(void *arg) {
     }
     // START: main receive remote command thread loop
     events.ResetEvents(RNBContext::event_read_thread_running);
-    events.SetEvents(RNBContext::event_read_thread_exiting);
+//    events.SetEvents(RNBContext::event_read_thread_exiting);
   }
   DNBLogThreadedIf(LOG_RNB_REMOTE, "RNBRemote::%s (%p): thread exiting...",
                    __FUNCTION__, arg);

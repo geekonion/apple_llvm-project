@@ -288,42 +288,4 @@ endif()
 
 set_target_properties(debugserver PROPERTIES FOLDER "lldb libraries/debugserver")
 
-if(APPLE_EMBEDDED)
-  set_property(TARGET lldbDebugserverCommon APPEND PROPERTY COMPILE_DEFINITIONS
-    WITH_LOCKDOWN
-    WITH_FBS
-    WITH_BKS
-    )
-  if(CAROUSELSERVICES_LIBRARY)
-    set_property(TARGET lldbDebugserverCommon APPEND PROPERTY COMPILE_DEFINITIONS
-      WITH_CAROUSEL
-      )
-  endif()
-  set_property(TARGET debugserver APPEND PROPERTY COMPILE_DEFINITIONS
-    WITH_LOCKDOWN
-    WITH_FBS
-    WITH_BKS
-    )
-  set_property(TARGET lldbDebugserverCommon APPEND PROPERTY COMPILE_FLAGS
-    -F${CMAKE_OSX_SYSROOT}/System/Library/PrivateFrameworks
-    )
 
-  add_lldb_library(lldbDebugserverCommon_NonUI ${lldbDebugserverCommonSources})
-  target_link_libraries(lldbDebugserverCommon_NonUI
-                      INTERFACE ${COCOA_LIBRARY}
-                      ${CORE_FOUNDATION_LIBRARY}
-                      ${FOUNDATION_LIBRARY}
-                      lldbDebugserverArchSupport
-                      ${SECURITY_LIBRARY}
-                      ${LIBCOMPRESSION})
-
-  add_lldb_tool(debugserver-nonui
-    debugserver.cpp
-
-    LINK_LIBS
-      lldbDebugserverCommon_NonUI
-
-    ENTITLEMENTS
-      ${entitlements}
-    )
-endif()

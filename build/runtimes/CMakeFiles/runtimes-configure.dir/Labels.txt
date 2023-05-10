@@ -1,0 +1,10 @@
+# Target labels
+ runtimes
+# Source files and their labels
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/CMakeFiles/runtimes-configure
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/CMakeFiles/runtimes-configure.rule
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-configure.rule
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-patch.rule
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-update.rule
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-download.rule
+/Users/bangcle/apple-llvm-project_ios/build/runtimes/runtimes-stamps/CMakeFiles/runtimes-mkdir.rule

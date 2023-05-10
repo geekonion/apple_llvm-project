@@ -2,6 +2,10 @@
 
 cmake_minimum_required(VERSION 3.13.4)
 
+if(POLICY CMP0114)
+  cmake_policy(SET CMP0114 NEW)
+endif()
+
 # CMP0116: Ninja generators transform `DEPFILE`s from `add_custom_command()`
 # New in CMake 3.20. https://cmake.org/cmake/help/latest/policy/CMP0116.html
 if(POLICY CMP0116)
@@ -589,11 +593,11 @@ endif()
 # This is primarily to support building smaller or faster project files.
 option(LLVM_INCLUDE_TOOLS "Generate build targets for the LLVM tools." ON)
 option(LLVM_BUILD_TOOLS
-  "Build the LLVM tools. If OFF, just generate build targets." ON)
+  "Build the LLVM tools. If OFF, just generate build targets." OFF)
 
-option(LLVM_INCLUDE_UTILS "Generate build targets for the LLVM utils." ON)
+option(LLVM_INCLUDE_UTILS "Generate build targets for the LLVM utils." OFF)
 option(LLVM_BUILD_UTILS
-  "Build LLVM utility binaries. If OFF, just generate build targets." ON)
+  "Build LLVM utility binaries. If OFF, just generate build targets." OFF)
 
 option(LLVM_INCLUDE_RUNTIMES "Generate build targets for the LLVM runtimes." ON)
 option(LLVM_BUILD_RUNTIMES
@@ -603,7 +607,7 @@ option(LLVM_BUILD_RUNTIME
   "Build the LLVM runtime libraries." ON)
 option(LLVM_BUILD_EXAMPLES
   "Build the LLVM example programs. If OFF, just generate build targets." OFF)
-option(LLVM_INCLUDE_EXAMPLES "Generate build targets for the LLVM examples" ON)
+option(LLVM_INCLUDE_EXAMPLES "Generate build targets for the LLVM examples" OFF)
 
 if(LLVM_BUILD_EXAMPLES)
   add_definitions(-DBUILD_EXAMPLES)
@@ -611,12 +615,12 @@ endif(LLVM_BUILD_EXAMPLES)
 
 option(LLVM_BUILD_TESTS
   "Build LLVM unit tests. If OFF, just generate build targets." OFF)
-option(LLVM_INCLUDE_TESTS "Generate build targets for the LLVM unit tests." ON)
+option(LLVM_INCLUDE_TESTS "Generate build targets for the LLVM unit tests." OFF)
 option(LLVM_INCLUDE_GO_TESTS "Include the Go bindings tests in test build targets." OFF)
 
 option(LLVM_BUILD_BENCHMARKS "Add LLVM benchmark targets to the list of default
 targets. If OFF, benchmarks still could be built using Benchmarks target." OFF)
-option(LLVM_INCLUDE_BENCHMARKS "Generate benchmark targets. If OFF, benchmarks can't be built." ON)
+option(LLVM_INCLUDE_BENCHMARKS "Generate benchmark targets. If OFF, benchmarks can't be built." OFF)
 
 option (LLVM_BUILD_DOCS "Build the llvm documentation." OFF)
 option (LLVM_INCLUDE_DOCS "Generate build targets for llvm documentation." ON)
@@ -1035,7 +1039,7 @@ include_directories( ${LLVM_INCLUDE_DIR} ${LLVM_MAIN_INCLUDE_DIR})
 # when crosscompiling import the executable targets from a file
 if(LLVM_USE_HOST_TOOLS)
   include(CrossCompile)
-  llvm_create_cross_target(LLVM NATIVE "" Release)
+  llvm_create_cross_target(LLVM NATIVE "" ${CMAKE_BUILD_TYPE})
 endif(LLVM_USE_HOST_TOOLS)
 if(LLVM_TARGET_IS_CROSSCOMPILE_HOST)
 # Dummy use to avoid CMake Warning: Manually-specified variables were not used

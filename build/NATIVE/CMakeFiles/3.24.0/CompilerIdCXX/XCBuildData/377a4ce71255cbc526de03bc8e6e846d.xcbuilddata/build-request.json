@@ -1,0 +1,38 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "cab83bf49ed2df1b1ab81a78cb182d1a3f938c03aee3f24af46a5caa592e362d"
+    }
+  ],
+  "containerPath" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/CMakeFiles/3.24.0/CompilerIdCXX/CompilerIdCXX.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

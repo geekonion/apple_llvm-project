@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/CMakeFiles/runtimes"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/CMakeFiles/runtimes.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/CMakeFiles/CMakeFiles/runtimes-complete.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-build.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-configure.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-download.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-install.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-patch.rule"
+		},
+		{
+			"file" : "/Users/bangcle/apple-llvm-project_ios/build/NATIVE/runtimes/runtimes-stamps/CMakeFiles/runtimes-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"runtimes"
+		],
+		"name" : "runtimes"
+	}
+}
